@@ -1,0 +1,6 @@
+февр. 15, 2024 9:04:35 PM com.example.task.aspects.LoggingAspect logExecution
+INFO: LoggingAspect
+Вызван метод: findAll
+Передаваемые параметры: []
+Возвращаемые параметры: 201 CREATED[]
+Время обработки запроса: 372
