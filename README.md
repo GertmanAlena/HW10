@@ -1,3 +1,3 @@
-![подключение prometheus](/image/Снимок экрана 2024-02-17 185501.png)
-![подключение grafana](/image/Снимок экрана 2024-02-17 182535.png)
-![анализ](/image/Снимок экрана 2024-02-17 185317.png)
+![подключение prometheus](/image/prometheus.png)
+![подключение grafana](/image/grafana.png)
+![](/image/Apply.png)
