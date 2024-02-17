@@ -2,6 +2,7 @@ package com.example.task.controller;
 
 import com.example.task.model.Task;
 import com.example.task.model.TaskStatus;
+import com.example.task.service.FileGateway;
 import com.example.task.service.TasksService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +18,8 @@ public class TaskController {
 
     private final TasksService service;
 
+    private final FileGateway fileGateway;
+
 //    @GetMapping("/tasks")
 //    public String getHomePage(){
 //        return "home";
@@ -29,6 +32,7 @@ public class TaskController {
      */
     @PostMapping
     public ResponseEntity<Task> addTask(@RequestBody Task task){
+        fileGateway.writeToFile("Tasks.txt", task.toString());
         return service.addTask(task);
     }
 

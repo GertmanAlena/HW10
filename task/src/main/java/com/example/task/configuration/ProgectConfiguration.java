@@ -30,4 +30,5 @@ public class ProgectConfiguration {
         logger.addHandler(handler);
         return logger;
     }
+
 }
